@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Components\include">
+      <UniqueIdentifier>{5b155e7a-6c5e-4afa-849e-9249081d4d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Modules">
+      <UniqueIdentifier>{1b7919c0-b3c7-4c7c-8919-734176abac6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Utils">
+      <UniqueIdentifier>{26537bb0-835a-4abc-97bf-0b17e3d92844}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\include\BaseInclude.hpp">
+      <Filter>Components\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Modules\AdBlock.hpp">
+      <Filter>Components\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Modules\AutoUpdates.hpp">
+      <Filter>Components\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Modules\Functions.hpp">
+      <Filter>Components\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Modules\Initialization.hpp">
+      <Filter>Components\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Modules\QuickPatch.hpp">
+      <Filter>Components\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Utils\Hooking.hpp">
+      <Filter>Components\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Utils\Utils.hpp">
+      <Filter>Components\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpotiHook.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Modules\AdBlock.cpp">
+      <Filter>Components\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Modules\AutoUpdates.cpp">
+      <Filter>Components\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Modules\Functions.cpp">
+      <Filter>Components\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Modules\Initialization.cpp">
+      <Filter>Components\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Modules\QuickPatch.cpp">
+      <Filter>Components\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Utils\Hooking.cpp">
+      <Filter>Components\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Utils\Utils.cpp">
+      <Filter>Components\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
